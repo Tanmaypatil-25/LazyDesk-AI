@@ -1,9 +1,17 @@
 {
   "name": "lazydesk-ai",
   "version": "1.0.0",
-  "description": "LazyDesk AI - Privacy-first AI document organizer powered by local open-weight Gemma for Hacktoberfest 2026 Week 3",
+  "description": "Privacy-first local AI document organizer powered by open-weight Gemma and Ollama for Hacktoberfest 2026 Week 3",
   "type": "module",
   "main": "server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanmaypatil-25/LazyDesk-AI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tanmaypatil-25/LazyDesk-AI/issues"
+  },
+  "homepage": "https://github.com/Tanmaypatil-25/LazyDesk-AI#readme",
   "scripts": {
     "start": "node server/index.js",
     "server:dev": "node --watch server/index.js",
@@ -15,14 +23,17 @@
   },
   "keywords": [
     "hacktoberfest",
+    "hacktoberfest-2026",
     "gemma",
+    "gemma-3",
     "ollama",
+    "open-source-ai",
     "mern",
     "document-organizer",
     "local-ai",
-    "privacy"
+    "privacy-first"
   ],
-  "author": "Tanmay",
+  "author": "Tanmay Patil",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",

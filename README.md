@@ -82,7 +82,7 @@ LazyDesk AI was intentionally built with **100% on-device, open-source AI** rath
 ### 1. Clone & Install Dependencies
 
 ```bash
-git clone https://github.com/your-username/LazyDesk-AI.git
+git clone https://github.com/Tanmaypatil-25/LazyDesk-AI.git
 cd LazyDesk-AI
 
 # Install all root, server, and client dependencies

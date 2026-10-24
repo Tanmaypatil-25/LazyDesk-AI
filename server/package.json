@@ -1,8 +1,9 @@
 {
   "name": "lazydesk-ai-server",
   "version": "1.0.0",
-  "description": "LazyDesk AI Server - Express & Ollama Backend",
+  "description": "LazyDesk AI Server - Express & Ollama Backend for Hacktoberfest 2026 Week 3",
   "type": "module",
+  "author": "Tanmay Patil",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
