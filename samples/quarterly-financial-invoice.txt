@@ -1,0 +1,20 @@
+ACME CLOUD SERVICES & INFRASTRUCTURE INC.
+Invoice #: INV-2026-10-8842
+Date: October 18, 2026
+Due Date: November 18, 2026
+Billed To: Tanmay Sharma / LazyDesk AI Project
+Account ID: AC-984210
+
+LINE ITEMS:
+1. GPU Inference Compute Cluster (Node: Gemma-Dedicated, 120 hrs) - $180.00
+2. High-Performance NVMe SSD Storage Volume (500GB) - $45.00
+3. Bandwidth Egress & API Gateway Relay Services - $15.50
+4. Automated SSL & DNS Wildcard Management - $0.00 (Promo)
+
+SUBTOTAL: $240.50
+TAX (8.25%): $19.84
+TOTAL DUE: $260.34
+
+PAYMENT INSTRUCTIONS:
+Please remit payment via ACH or Wire Transfer to ACME Global Services, Routing #021000021, Account #88392019.
+Thank you for building open-source AI with ACME Cloud!

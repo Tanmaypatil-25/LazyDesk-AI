@@ -1,0 +1,39 @@
+{
+  "name": "lazydesk-ai",
+  "version": "1.0.0",
+  "description": "LazyDesk AI - Privacy-first AI document organizer powered by local open-weight Gemma for Hacktoberfest 2026 Week 3",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server:dev": "node --watch server/index.js",
+    "client:dev": "npm --prefix client run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run server:dev\" \"npm run client:dev\"",
+    "build": "npm --prefix client run build",
+    "test": "node --test server/tests/**/*.test.js",
+    "install:all": "npm install && npm --prefix client install"
+  },
+  "keywords": [
+    "hacktoberfest",
+    "gemma",
+    "ollama",
+    "mern",
+    "document-organizer",
+    "local-ai",
+    "privacy"
+  ],
+  "author": "Tanmay",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "pdfkit": "^0.20.2"
+  }
+}
